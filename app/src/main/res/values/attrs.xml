@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorPrimaryLight" format="reference|color" />
+    <attr name="colorCardBackground" format="reference|color" />
+    <attr name="colorDefaultBackground" format="reference|color" />
+    <attr name="colorTextActive" format="reference|color" />
+    <attr name="colorTextInActive" format="reference|color" />
+    <attr name="colorTextDisable" format="reference|color" />
+    <attr name="colorProgress" format="reference|color" />
+    <attr name="colorChipBackground" format="reference|color" />
+    <attr name="colorSettingIconTint" format="reference|color" />
+    <attr name="colorDialogIcon" format="reference|color" />
+
+    <declare-styleable name="CircleView">
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CirclePagerIndicator">
+        <attr name="normalDotColor" format="color" />
+        <attr name="focusedDotColor" format="color" />
+        <attr name="normalDotRadius" format="dimension" />
+        <attr name="focusedDotRadius" format="dimension" />
+        <attr name="dotSpace" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerView">
+        <attr name="loop" format="boolean" />
+        <attr name="duration" format="integer" />
+        <attr name="pagerScrollDuration" format="integer" />
+        <attr name="showIndicator" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleTextView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="padding" format="dimension" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelView">
+        <!-- 设置文字内容 -->
+        <attr name="lv_text" format="string" />
+        <!-- 设置文字颜色,默认#ffffff -->
+        <attr name="lv_text_color" format="color" />
+        <!-- 设置文字大小,默认11sp -->
+        <attr name="lv_text_size" format="dimension" />
+        <!-- 设置文字是否支持加粗,默认true -->
+        <attr name="lv_text_bold" format="boolean" />
+        <!-- 设置文字是否支持全部大写,默认true-->
+        <attr name="lv_text_all_caps" format="boolean" />
+        <!-- 设置背景颜色,默认"#FF4081"-->
+        <attr name="lv_background_color" format="color" />
+        <!-- 设置LabelView所在矩形最小宽高,默认mFillTriangle?35dp:50dp-->
+        <attr name="lv_min_size" format="dimension" />
+        <!-- 设置文字上下padding,默认3.5dp,mFillTriangle为true时borderColor无效-->
+        <attr name="lv_padding" format="dimension" />
+        <!-- 设置LabelView方向 -->
+        <attr name="lv_gravity" format="enum">
+            <enum name="TOP_LEFT" value="51" />
+            <enum name="TOP_RIGHT" value="53" />
+            <enum name="BOTTOM_LEFT" value="83" />
+            <enum name="BOTTOM_RIGHT" value="85" />
+        </attr>
+        <!-- 设置是否填充三角区域,默认false -->
+        <attr name="lv_fill_triangle" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MaterialSearchView">
+        <attr name="searchBackground" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ScanningView">
+        <attr name="bColor" format="color" />
+        <attr name="centerLineColor" format="color" />
+        <attr name="muskColor" format="color" />
+        <attr name="pointColor" format="color" />
+        <attr name="bWidth" format="dimension" />
+        <attr name="bHeight" format="dimension" />
+        <attr name="centerLineHeight" format="dimension" />
+        <attr name="borderGap" format="dimension" />
+        <attr name="tipText" format="string" />
+        <attr name="tipTextSize" format="dimension" />
+        <attr name="tipTextPosition" format="enum">
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+        <attr name="tipTextToBorderMargin" format="dimension" />
+    </declare-styleable>
+</resources>

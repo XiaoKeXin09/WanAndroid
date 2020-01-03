@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#00897b</color>
+    <color name="colorPrimaryDark">#005b4f</color>
+    <color name="colorPrimaryLight">#4ebaaa</color>
+    <color name="colorAccent">#4ebaaa</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhiteHint">#66FFFFFF</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">
+        @color/colorWhite
+    </color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorBannerDot">#AAFFFFFF</color>
+    <color name="colorDefaultIconTint">#DBDBDB</color>
+    <color name="colorDefaultIconBg">#F6F6F6</color>
+    <color name="colorTextActive">#212121</color>
+    <color name="colorTextInActive">#666666</color>
+    <color name="colorTextDisable">#9E9E9E</color>
+    <color name="colorWhiteInActive">#CCFFFFFF</color>
+    <color name="colorWhiteDisable">#AAFFFFFF</color>
+    <color name="colorIconTint">#737373</color>
+    <color name="colorBlackCard">#262626</color>
+    <color name="colorChipBackground">#7b7b7b</color>
+    <color name="colorLine">#e0e0e0</color>
+    <color name="colorBackgroundMusk">#2A000000</color>
+    <color name="colorSearchMusk">#88000000</color>
+    <color name="colorSettingIcon">#757575</color>
+
+    <!-- Theme Color -->
+    <color name="colorBlackPrimary">#212121</color>
+    <color name="colorBlackPrimaryDark">#000000</color>
+    <color name="colorBlackPrimaryLight">#484848</color>
+
+    <color name="colorRedPrimary">#b71c1c</color>
+    <color name="colorRedPrimaryDark">#7f0000</color>
+    <color name="colorRedPrimaryLight">#f05545</color>
+
+    <color name="colorPurplePrimary">#8e24aa</color>
+    <color name="colorPurplePrimaryDark">#5c007a</color>
+    <color name="colorPurplePrimaryLight">#c158dc</color>
+
+    <color name="colorIndigoPrimary">#3949ab</color>
+    <color name="colorIndigoPrimaryDark">#00227b</color>
+    <color name="colorIndigoPrimaryLight">#6f74dd</color>
+
+    <color name="colorGreenPrimary">#2e7d32</color>
+    <color name="colorGreenPrimaryDark">#005005</color>
+    <color name="colorGreenPrimaryLight">#60ad5e</color>
+
+    <color name="colorOrangePrimary">#ef6c00</color>
+    <color name="colorOrangePrimaryDark">#b53d00</color>
+    <color name="colorOrangePrimaryLight">#ff9d3f</color>
+
+    <color name="colorBlueGreyPrimary">#546e7a</color>
+    <color name="colorBlueGreyPrimaryDark">#29434e</color>
+    <color name="colorBlueGreyPrimaryLight">#819ca9</color>
+
+    <color name="colorYellowPrimary">#ef9a9a</color>
+    <color name="colorYellowPrimaryDark">#ba6b6c</color>
+    <color name="colorYellowPrimaryLight">#ffcccb</color>
+
+    <color name="colorBrownPrimary">#6d4c41</color>
+    <color name="colorBrownPrimaryDark">#40241a</color>
+    <color name="colorBrownPrimaryLight">#9c786c</color>
+
+    <color name="colorPinkPrimary">#e91e63</color>
+    <color name="colorPinkPrimaryDark">#b0003a</color>
+    <color name="colorPinkPrimaryLight">#ff6090</color>
+
+    <color name="colorBluePrimary">#03a9f4</color>
+    <color name="colorBluePrimaryDark">#007ac1</color>
+    <color name="colorBluePrimaryLight">#67daff</color>
+</resources>
